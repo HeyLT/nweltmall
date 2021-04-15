@@ -2,9 +2,9 @@ import axios from "axios";
 
 export function request(config) {
   const interre = axios.create({
-    //服务器接口
-    baseURL: "",
-    timeout: 5000
+      //服务器接口
+      baseURL: "",
+      timeout: 5000
   });
 
   // 请求拦截

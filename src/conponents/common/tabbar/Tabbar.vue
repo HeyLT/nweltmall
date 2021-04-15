@@ -25,6 +25,7 @@ export default {
   height: 44px;
   line-height: 44px;
   text-align: center;
+  z-index: 9;
 }
 .item_left,
 .item_right {
